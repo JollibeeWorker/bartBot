@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
-//const fetch = require('node-fetch');
-import { fetch } from "node-fetch";
+const fetch = require('node-fetch');
 const { MessageEmbed } = require('discord.js');
 const { Pagination } = require('discordjs-button-embed-pagination');
 require('dotenv').config();
